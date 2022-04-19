@@ -10,7 +10,7 @@ navBar = () => {
          document.getElementById('cartas').innerHTML += ` 
    
          <div class="col">
-         <div class="card h-100">
+         <div class="card text-white bg-dark h-100">
            <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" class="card-img-top" alt="...">
            <div class="card-body">
              <h5 class="card-title"> ${data.results[i].original_title} </h5>
@@ -37,7 +37,7 @@ fetch(trending).then(response => response.json()).then(data => {
       document.getElementById('seccionCartas').innerHTML += ` 
 
       <div class="col">
-      <div class="card">
+      <div class="card text-white bg-dark">
         <img src="https://image.tmdb.org/t/p/w500${data.results[i].poster_path}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${data.results[i].original_title}</h5>

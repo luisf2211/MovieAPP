@@ -1,7 +1,7 @@
 body{ 
     /* background-color: #05141e; */
     background-color: aliceblue;
-    padding-bottom: 80px;
+    padding-bottom: 5px;
 }
 
 #barraNavegacion{ 
@@ -13,6 +13,12 @@ body{
 
 #color-title{ 
     font-weight: bold;
+}
+
+#color-title-paragraph{ 
+
+    font-weight: bold;
+
 }
 
 #imagenCarrusel{ 
