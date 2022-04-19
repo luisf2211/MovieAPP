@@ -30,7 +30,6 @@ navBar = () => {
 // COMPONENTE SECCION TRENDING.
 
 let trending = 'https://api.themoviedb.org/3/trending/movie/day?api_key=8c5d0843ccb2dc747c435e1a482020a4'; 
-fetch(trending).then(response=> response.json()).then(data=> console.log(data)); 
 
 fetch(trending).then(response => response.json()).then(data => { 
 
