@@ -24,7 +24,7 @@ navBar = () => {
        </div> 
        `}
    }); 
-   
+
 }
 
 // COMPONENTE SECCION TRENDING.
@@ -50,7 +50,5 @@ fetch(trending).then(response => response.json()).then(data => {
 
 
     `}
-
-     console.log(data.results)
 
    }); 
