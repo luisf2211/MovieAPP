@@ -44,10 +44,12 @@ function displayMovies(movies) {
     <div class="card-body">
       <h5 class="card-title">${title}</h5>
       <p class="card-text">${overview} </p>
+      <button type="button" id="radiobtn" class="btn btn-warning">Ver mas</button>
     </div>
     <div class="card-footer">
       <small class="text-muted">Fecha de estreno: ${release_date} </small> <br>
       <small class="text-muted" id="popularidad" >Popularidad: ${rating(vote_average)}   </small>
+
     </div>
   </div>
   
