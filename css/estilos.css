@@ -32,3 +32,11 @@ body{
     padding-top: 50px;
 
 }
+
+.auto{
+    display: none;
+  }
+
+  .alinear{
+    text-align: right;
+  }
